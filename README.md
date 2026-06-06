@@ -78,7 +78,7 @@ DATASETS = ["fema", "storm_surge", "fault_lines", "fire_risk"]  # all
 DATASETS = ["fault_lines"]    # one at a time
 
 # Output folder (all files saved here)
-OUTPUT_ROOT = r"E:\FEMA_ETL"   # Windows
+OUTPUT_ROOT = r"path:\Folder name"   # Windows
 OUTPUT_ROOT = "/data/hazards"  # Mac/Linux
 
 # Mapbox credentials
