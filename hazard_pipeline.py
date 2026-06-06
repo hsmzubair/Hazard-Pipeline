@@ -39,7 +39,7 @@ from tqdm import tqdm
 TARGET_STATES = ["WA"]
 
 # Which datasets to run.  Remove any you don't want.
-DATASETS = ["fema","fault_lines"]
+DATASETS = ["fema", "storm_surge", "fault_lines", "fire_risk"]
 
 # Root output directory.  Sub-folders are created per dataset.
 OUTPUT_ROOT = r"path:\folder"
